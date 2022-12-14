@@ -29,10 +29,10 @@ void FillArray(double[,] matr)
 }
 }
 Console.WriteLine(" Введите число строк: ");
-double m = Convert.ToDouble(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine(" Введите число столбцов: ");
-double n = Convert.ToDouble(Console.ReadLine());
-double[,] matrix = new double[3, 4];
+int n = Convert.ToInt32(Console.ReadLine());
+double[,] matrix = new double[m, n];
 
 
 FillArray(matrix);
